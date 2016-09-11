@@ -68,14 +68,14 @@ nav{
 .blanc{
 	color: white;
 }
-
-
-/*paleta de colores*/
-
-
+.moraR { 
+	 background-color:#6F0E6C ; 
+}
+.azulmarino { 
+	background-color:#223F65 ; 
+}
 
 /* imagenes*/ 
-
 
 .paisaje{
 	background-image: url(../img/carousel-bg.jpg);
@@ -89,6 +89,30 @@ nav{
 	height: 40% ;
 	width: 70% ;
 }
+
+/*section redes sociales*/
+.trigal{
+	background-image: url(../img/img-divider-img.jpg);
+	height: 20em;
+	width: 100% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+	opacity: .9;
+}
+
+form{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+/*me falla esta seccion ,acomodar los iconos*/
+.iconos{
+	margin: 0%;
+	font-size:5% ;
+	
+}
+
 
 /*ANIMACIÓN*/
 .tilt {
