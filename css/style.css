@@ -2,11 +2,108 @@
 
 @media screen and (max-width : 920px) {
 
-
+.negro{
+	background-color:  black;
+}
+.azulmarino { 
+	background-color:#223F65 ; 
+}
+.cafe { 
+	color:#986A40 ;  
+}
+.cafeTerracota { 
+	color:#C27024 ; 
+}
+.moradoObs {
+	color: #48444C ; 
+}
+.anaranjado { 
+	color:#F48825;
+}
+.verdeR {
+	background-color:  #39701E  ;
+}
 }
 
 @media screen and (max-width: 600px) {
+ /*colores de fondo */
+.verdeR {
+	background-color:  #39701E  ;
+}
+.moraR { 
+	 background-color:#6F0E6C ; 
+}
+.rosaR { 
+	color:#986A40 ;  
+}
 
 }
 
-	
+
+body{
+	padding-top: 60px;
+}
+
+nav{
+	padding-bottom: 18px;
+}
+ h1{
+ 	padding-top: 50px;
+ 	padding-bottom: 20px;
+ 	font-size: 60px;
+ }
+
+.text{
+	text-decoration: none;
+	color: black;
+}
+
+/*colores menú*/
+.verde{
+	background-color:  #34C07B;
+}
+.moradoObs {
+	color: #48444C ; 
+}
+.blanc{
+	color: white;
+}
+
+
+/*paleta de colores*/
+
+
+
+/* imagenes*/ 
+
+
+.paisaje{
+	background-image: url(../img/carousel-bg.jpg);
+	height:38em;
+	width: 100% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.puas{
+	height: 40% ;
+	width: 70% ;
+}
+
+/*ANIMACIÓN*/
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-400deg);
+     -moz-transform: rotate(-400deg);
+       -o-transform: rotate(-400deg);
+      -ms-transform: rotate(-400deg);
+          transform: rotate(-400deg);
+}
+
