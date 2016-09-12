@@ -1,5 +1,7 @@
 /*  */
-
+header{
+	background-color: green;
+}
 @media screen and (max-width : 920px) {
 
 .negro{
@@ -36,7 +38,9 @@
 .rosaR { 
 	color:#986A40 ;  
 }
-
+header{
+	background-color: green;
+}
 }
 
 
